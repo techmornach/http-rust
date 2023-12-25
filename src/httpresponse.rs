@@ -104,7 +104,7 @@ impl<'a> From <HttpResponse <'a>> for String{
 			&res1.status_code(),
 			&res1.status_text(),
 			&res1.headers(),
-			&res.body.unwrap_or("").len(),
+			&res.body.unwrap_or("".to_string()).len(),
 			&res1.body()
 			)
 	}
