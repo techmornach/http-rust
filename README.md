@@ -91,8 +91,8 @@ cargo add http-rust
 ## Usage Example
 
 ```rust
-use http_library::httprequest::HttpRequest;
-use http_library::httpresponse::HttpResponse;
+use http_rust::httprequest::HttpRequest;
+use http_rust::httpresponse::HttpResponse;
 use std::collections::HashMap;
 
 fn main() {
