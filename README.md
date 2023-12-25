@@ -2,6 +2,20 @@
 
 This Rust library provides basic functionality for handling HTTP requests and generating HTTP responses. It consists of two modules: `httprequest` for parsing incoming HTTP requests and `httpresponse` for creating HTTP responses.
 
+## Installation
+
+To use **http-rust** in your Rust project, add the following line to your `Cargo.toml` file:
+
+```toml
+http-rust = "0.1.0"
+```
+
+Alternatively, you can run the following Cargo command in your project directory:
+
+```bash
+cargo add http-rust
+```
+
 ## `httprequest` Module
 
 ### Structs
@@ -104,5 +118,9 @@ fn main() {
     println!("Generated Response: {}", response_str);
 }
 ```
+
+## License
+
+This project is licensed under the terms of the [MIT License](https://opensource.org/licenses/MIT). See the [LICENSE](https://github.com/techmornach/http-rust/blob/main/LICENSE) file for more details.
 
 Feel free to customize and extend the library based on your specific use case and requirements. If you have any questions or encounter issues, please refer to the provided unit tests or reach out for support.
