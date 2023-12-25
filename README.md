@@ -77,8 +77,8 @@ This Rust library provides basic functionality for handling HTTP requests and ge
 ## Usage Example
 
 ```rust
-use http::httprequest::HttpRequest;
-use http::httpresponse::HttpResponse;
+use http_library::httprequest::HttpRequest;
+use http_library::httpresponse::HttpResponse;
 use std::collections::HashMap;
 
 fn main() {
